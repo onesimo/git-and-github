@@ -1,4 +1,4 @@
-Howdy, I'm learing git/github
+Some useful commands
 
 git . "add all files"
 git commit -a -m "add all files and commit them"
