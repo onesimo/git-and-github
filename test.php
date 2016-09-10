@@ -1,4 +1,4 @@
 <?php
-echo "firt commit";
-echo "second commit";
+echo "1 commit";
+echo "2 commit";
 
