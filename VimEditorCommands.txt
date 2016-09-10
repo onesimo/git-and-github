@@ -1,0 +1,6 @@
+#Vim Editor Commands
+
+:wq Wire file to disk and quit the editor
+:q! Quit (no warning)
+:q Quit (a warning is printed if a modified file has not been saved) 
+
