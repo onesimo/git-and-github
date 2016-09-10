@@ -4,7 +4,7 @@ git . "add all file"
 git commit -a -m "add all files and commit them"
 
 git log 
-git log -p "all updates of the file"
+git log -p "all updates of the files"
 git log -p -2 "last 2 updates"
 git log --stat "resume of updates"
 git log --pretty=oneline "all commits in one line"
@@ -13,7 +13,6 @@ git log --since=2.days "log of last 2 days"
 git log --since=2.weeks "log of last 2 weeks"
 
 git reset HEAD test.php "back to last stage"
-
 
 git checkout master "back to branch"
 git reset HEAD~1 --soft "back 1 to be commited"
