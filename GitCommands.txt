@@ -3,6 +3,7 @@ Howdy, I'm learing git/github
 git . "add all file"
 git commit -a -m "add all files and commit them"
 
+git log 
 git log -p "all updates of the file"
 git log -p -2 "last 2 updates"
 git log --stat "resume of updates"
@@ -14,3 +15,6 @@ git log --since=2.weeks "log of last 2 weeks"
 git reset HEAD test.php "back to last stage"
 
 
+git checkout master "back to branch"
+git reset HEAD~1 --soft "back 1 to be commited"
+git reset HEAD~1 --hard "remove 1 commit"
