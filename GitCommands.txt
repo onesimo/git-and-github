@@ -1,6 +1,6 @@
 Howdy, I'm learing git/github
 
-git . "add all file"
+git . "add all files"
 git commit -a -m "add all files and commit them"
 
 git log 
@@ -17,3 +17,20 @@ git reset HEAD test.php "back to last stage"
 git checkout master "back to branch"
 git reset HEAD~1 --soft "back 1 to be commited"
 git reset HEAD~1 --hard "remove 1 commit"
+
+$ git checkout -b "to create a new branch"
+$ git checkout master "switch branchs"
+$ git checkout newmaster "switch branchs"
+
+git merge funcionalidade1 "to merge branches"
+git rebase funcionalidade1 "to rebase commits between branches"
+
+SSH key - GitHub
+
+ssh-keyen "to create a ssh key"
+cd ~/.ssh/ "open ssh directory"
+cat id_rsa.pub "print key"
+
+git remote add origin "https://github.com/onesimo/your-dir.git"
+vim .git/config "configuration of your directory"
+git push origin master "push from origin to master"
