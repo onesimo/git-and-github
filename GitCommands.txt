@@ -34,3 +34,10 @@ cat id_rsa.pub "print key"
 git remote add origin "https://github.com/onesimo/your-dir.git"
 vim .git/config "configuration of your directory"
 git push origin master "push from origin to master"
+
+git clone "https://github.com/onesimo/your-dir.git"
+git branch -a "display all branch from origin"
+git checkout -b funcionalidade1 origin/funcionalidade1 "this will create a branch funcionalidade1 from origin/funcionalidade1"
+
+git pull origin master 'update origin with master'
+git push origin novo_branch 'will create a new branch in remote directory'
