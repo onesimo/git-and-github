@@ -41,3 +41,7 @@ git checkout -b funcionalidade1 origin/funcionalidade1 "this will create a branc
 
 git pull origin master 'update origin with master'
 git push origin novo_branch 'will create a new branch in remote directory'
+
+git tag 0.1.0 'create a tag'
+git tab -l 'to print all tags'
+git push origin master --tags 'update tags on github'
