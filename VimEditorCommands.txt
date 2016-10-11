@@ -1,6 +1,73 @@
 #Vim Editor Commands
 
-:wq Wire file to disk and quit the editor
-:q! Quit (no warning)
-:q Quit (a warning is printed if a modified file has not been saved) 
+Exit Commands
 
+:wq Write file to disk and quit the editor
+
+:q! Quit (no warning)
+
+:q Quit (a warning is printed if a modified file has not been saved)
+
+ZZ Save workspace and quit the editor (same as :wq)
+
+: 10,25 w temp
+
+write lines 10 through 25 into file named temp. Of course, other line
+
+numbers can be used. (Use :f to find out the line numbers you want.
+
+ 
+
+Text Deletion Commands
+
+x Delete character
+
+dw Delete word from cursor on
+
+db Delete word backward
+
+dd Delete line
+
+d$ Delete to end of line
+
+d^ (d caret, not CTRL d) Delete to beginning of line
+
+Yank (has most of the options of delete)-- VI's copy commmand
+
+yy yank current line
+
+y$ yank to end of current line from cursor
+
+yw yank from cursor to end of current word
+
+5yy yank, for example, 5 lines
+
+Paste (used after delete or yank to recover lines.)
+
+p paste below cursor
+
+P paste above cursor
+
+"2p paste from buffer 2 (there are 9)
+
+u Undo last change
+
+U Restore line
+
+J Join next line down to the end of the current line
+
+File Manipulation Commands
+
+:w Write workspace to original file
+
+:w file Write workspace to named file
+
+:e file Start editing a new file
+
+:r file Read contents of a file to the workspace
+
+To create a page break, while in the insert mode, press the CTRL key
+
+And l. ^L will appear in your text and will cause the printer to start
+
+A new page.
