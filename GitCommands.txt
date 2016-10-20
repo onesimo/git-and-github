@@ -45,7 +45,5 @@ git push origin novo_branch 'will create a new branch in remote directory'
 git tag 0.1.0 = 'create a lightwheight tag'
 git tag -a v0.1.0 -m = "create an annotaded tag"
 git tag -l 'to print all tags'
-git push origin master --tags 'update tags on github'
-(OR)
-git push --follow-tags
+git push origin master --tags 'update tags on github' (OR) git push --follow-tags
 
